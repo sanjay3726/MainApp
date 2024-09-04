@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C31A1C462C88493D00F3F3A4 /* FindMyIP in Frameworks */ = {isa = PBXBuildFile; productRef = C31A1C452C88493D00F3F3A4 /* FindMyIP */; };
 		C34BA4642C84BFA1006522CB /* MainAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BA4632C84BFA1006522CB /* MainAppApp.swift */; };
 		C34BA4662C84BFA1006522CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BA4652C84BFA1006522CB /* ContentView.swift */; };
 		C34BA4682C84BFA3006522CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34BA4672C84BFA3006522CB /* Assets.xcassets */; };
@@ -66,6 +67,7 @@
 				C34BA49D2C84C1FC006522CB /* FindMyIP in Frameworks */,
 				C34BA4A02C84C421006522CB /* FindMyIP in Frameworks */,
 				C34BA4932C84C0B4006522CB /* FindMyIP in Frameworks */,
+				C31A1C462C88493D00F3F3A4 /* FindMyIP in Frameworks */,
 				C36742F82C84C497005DA267 /* FindMyIP in Frameworks */,
 				C34BA4902C84BFFE006522CB /* FindMyIP in Frameworks */,
 				C34BA4972C84C14E006522CB /* FindMyIP in Frameworks */,
@@ -171,6 +173,7 @@
 				C36742F72C84C497005DA267 /* FindMyIP */,
 				C36742F92C84C4AA005DA267 /* FindMyIP */,
 				C36742FC2C84C4C8005DA267 /* FindMyIP */,
+				C31A1C452C88493D00F3F3A4 /* FindMyIP */,
 			);
 			productName = MainApp;
 			productReference = C34BA4602C84BFA1006522CB /* MainApp.app */;
@@ -246,7 +249,7 @@
 			mainGroup = C34BA4572C84BFA1006522CB;
 			packageReferences = (
 				C34BA4942C84C0CA006522CB /* XCRemoteSwiftPackageReference "Alamofire" */,
-				C36742FB2C84C4C8005DA267 /* XCLocalSwiftPackageReference "../../FinpMyIPPackage/FindMyIP" */,
+				C31A1C442C88493D00F3F3A4 /* XCRemoteSwiftPackageReference "FindMyIP" */,
 			);
 			productRefGroup = C34BA4612C84BFA1006522CB /* Products */;
 			projectDirPath = "";
@@ -616,14 +619,15 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		C36742FB2C84C4C8005DA267 /* XCLocalSwiftPackageReference "../../FinpMyIPPackage/FindMyIP" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../FinpMyIPPackage/FindMyIP;
-		};
-/* End XCLocalSwiftPackageReference section */
-
 /* Begin XCRemoteSwiftPackageReference section */
+		C31A1C442C88493D00F3F3A4 /* XCRemoteSwiftPackageReference "FindMyIP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sanjay3726/FindMyIP";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		C34BA4942C84C0CA006522CB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -635,6 +639,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C31A1C452C88493D00F3F3A4 /* FindMyIP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C31A1C442C88493D00F3F3A4 /* XCRemoteSwiftPackageReference "FindMyIP" */;
+			productName = FindMyIP;
+		};
 		C34BA48F2C84BFFE006522CB /* FindMyIP */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FindMyIP;

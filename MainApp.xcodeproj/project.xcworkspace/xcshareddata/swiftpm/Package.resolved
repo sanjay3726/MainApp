@@ -8,6 +8,15 @@
         "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
         "version" : "5.9.1"
       }
+    },
+    {
+      "identity" : "findmyip",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sanjay3726/FindMyIP",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5f9ba3fa05db340a2f8f731b7453dc005d6fbaa2"
+      }
     }
   ],
   "version" : 2
